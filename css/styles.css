@@ -12,6 +12,7 @@ h1 {
 
 ul{
   list-style: none;
+  padding-left: 1px;
 }
 
 #listaUsuarios{
@@ -20,16 +21,23 @@ ul{
   justify-content: space-around;
   align-content: center;
   flex-wrap: wrap;
+  
 }
 
 #usuarioLi{
   width: 400px;
   display:flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-content: center;
   flex-wrap: wrap;
   border: solid black 0.5px;
+  margin-top: 10px;
+}
 
+#nombreUsuario{
+  border: solid black 0.5px;
+  margin-left: 0px;
+  padding-left: 0px;
 }
 

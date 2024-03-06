@@ -68,6 +68,7 @@ function agregarUsuarioALaLista(usuario) {
     console.log(nuevoUsuarioLi);
 
     let nombreUsuario=document.createElement('div');
+    nombreUsuario.id='nombreUsuario';
 
     let listaNombreUsuario=document.createElement('ul');
     listaNombreUsuario.innerHTML=`
@@ -85,7 +86,7 @@ function agregarUsuarioALaLista(usuario) {
     let imgUsuario=document.createElement('img');
     imgUsuario.src=usuario.img;
     imgUsuario.height = '100';
-    imgUsuario.width = '100';
+    imgUsuario.width = '70';
 
     imagenUsuario.appendChild(imgUsuario);
     
